@@ -1,0 +1,66 @@
+.titulo{
+	font-size:30px;
+	font-weight:bold;
+	margin-left:18%;
+}
+
+.iconFeito{
+	font-size: 10px !important;
+}
+
+li {
+	font-weight:bold;
+	background-color: #ffcdd2 !important;
+}
+
+i.excluir{
+	color: #000;
+}
+
+.feito{
+	background-color: #dcedc8 !important;
+}
+
+.feito div{
+	text-decoration: line-through;
+}
+
+.feito i.excluir{
+	color: #000;
+}
+
+.input-field label {
+	color: black;
+  }
+
+#tarefa{
+	border-color: black;
+}
+
+#lblTarefa{
+	color:black;
+}
+
+#tarefa:focus {
+	color: #000;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+body {
+	  min-height: 100vh;
+	  overflow: hidden;
+}
+
+header {
+	height: 100px;
+}
+
+footer {
+	height: 100px;
+}
+
+main {
+	height: calc(100vh - 200px);
+	overflow: auto;
+}
